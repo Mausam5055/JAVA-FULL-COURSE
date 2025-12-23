@@ -14,8 +14,7 @@
 
 4. Write a Java program to detect double and triple spaces in a string.
 5. Write a program to format the following letter using escape sequence characters.
-       
-       Letter = “Dear Harry, This Java Course is nice. Thanks”
+   Letter = “Dear Harry, This Java Course is nice. Thanks”
 
 ## Code Solution:
 
@@ -24,7 +23,7 @@ public class cwh_15_ps3_pr01 {
     public static void main(String[] args) {
         String name = "Peter Parker";
         System.out.println(name);
-        
+
         name = name.toLowerCase();
         System.out.println(name);
     }
@@ -34,9 +33,9 @@ public class cwh_15_ps3_pr01 {
 ```
 public class cwh_15_ps3_pr02 {
     public static void main(String[] args) {
-        String name = "My name is            Kishan       ";
+        String name = "My name is            Mausam       ";
         System.out.println(name);
-        
+
         name = name.replace(" ", "_");
         System.out.println(name);
     }
@@ -51,7 +50,7 @@ public class cwh_15_ps3_pr03 {
         Scanner sc = new Scanner(System.in);
         String name = sc.next();
         String letter = "Dear <|name|>, Thanks a lot";
-        
+
         letter = letter.replace("<|name|>", name);
         System.out.println(letter);
     }
@@ -61,7 +60,7 @@ public class cwh_15_ps3_pr03 {
 ```
 public class cwh_15_ps3_pr04 {
     public static void main(String[] args) {
-        String name = "My name  is   Kishan";
+        String name = "My name  is   Mausam";
         System.out.println(name.indexOf("  "));
         System.out.println(name.indexOf("   "));
     }
