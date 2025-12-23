@@ -66,7 +66,7 @@ _(Note: This table highlights key milestones. The repository contains over 50 de
 ## 🤝 Credits & Acknowledgements
 
 - **Inspiration**: Code with Harry (YouTube Channel).
-- **Author**: Kishan Kumar Rai.
+- **Author**: Mausam Kar.
 
 ## 📄 License
 
