@@ -1,55 +1,18 @@
-# Module 2 Notes: Java Object-Oriented Programming (OOP)
+# Module 2: Object-Oriented Programming (OOP)
 
-OOP is the core of Java. It focuses on objects and data rather than logic alone.
+Master the core principles of Java's object-oriented nature.
 
----
+## 📝 Topics and Materials
 
-## 1. OOP Basics
-
-- **Class**: A blueprint (e.g., `Dog`).
-- **Object**: An instance of a class (e.g., `myDog`).
-- **Methods**: Actions an object can perform.
-- **`this`**: Refers to the current object.
-- **`instanceof`**: Checks if an object belongs to a class.
-
----
-
-## 2. Constructors & Final
-
-- **Constructor**: A special method to initialize objects. Has the same name as the class and no return type.
-- **Overloading**: Multiple constructors with different parameters.
-- **`final` keyword**:
-  - Variable: Value is fixed (Constant).
-  - Method: Cannot be overridden.
-  - Class: Cannot be inherited.
+| Topic             | Description                     | Link                                                             |
+| :---------------- | :------------------------------ | :--------------------------------------------------------------- |
+| **OOP Basics**    | Classes, Objects, `this`        | [OOP_Basics.java](./OOP_Basics.java)                             |
+| **Encapsulation** | Private fields, Getters/Setters | [Encapsulation_Access.java](./Encapsulation_Access.java)         |
+| **Inheritance**   | Extends and Super keywords      | [Inheritance_Polymorphism.java](./Inheritance_Polymorphism.java) |
+| **Abstraction**   | Interfaces and Abstract classes | [Abstractions_Interfaces.java](./Abstractions_Interfaces.java)   |
+| **Advanced**      | Enums & Reflection              | [Enums_Reflection.java](./Enums_Reflection.java)                 |
+| **Notes**         | Consolidated OOP summary        | [Module_2_Notes.md](./Module_2_Notes.md)                         |
 
 ---
 
-## 3. The Four Pillars of OOP
-
-1. **Encapsulation**: Private data + Public getters/setters.
-2. **Inheritance**: `extends` keyword. Reusing code from a parent class.
-3. **Polymorphism**:
-   - **Overloading** (Compile-time): Same method name, different parameters.
-   - **Overriding** (Run-time): Child class changes parent method logic.
-4. **Abstraction**:
-   - **Abstract Class**: Can have implementation; cannot be instantiated.
-   - **Interface**: A complete blueprint; supports multiple inheritance.
-
----
-
-## 4. Advanced Class Types
-
-- **Nested/Inner Classes**: Class inside a class.
-- **Static Nested Classes**: Can be accessed without an outer class object.
-- **Anonymous Classes**: Classes without a name (one-time use).
-- **Singleton**: Ensures only one object is ever created (e.g., Database connection).
-
----
-
-## 5. Miscellaneous
-
-- **Strings**: Immutable text objects.
-- **Recursion**: A method calling itself.
-- **Enums**: Group of constants (unmutable values).
-- **Reflection**: Inspecting class structure at runtime.
+**Learning Goal**: Understand how to architect applications using objects, interfaces, and inheritance.
